@@ -48,3 +48,7 @@ target/
 velocity.log
 .odo/odo-file-index.json
 .odo/env
+.vscode/*
+
+# Deployment specific
+devfile
