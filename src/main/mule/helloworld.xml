@@ -11,7 +11,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="750f2074-4575-4997-86ba-70e2b4853cf1" config-ref="HTTP_Listener_config" path="/hello"/>
 		<set-payload value='#[output text/plain
 &#10;---
-&#10;"Hello Yann!"]' doc:name="Set Payload" doc:id="d4868628-be21-4072-8a41-fdd7fb578f3f" />
+&#10;"Hello World!"]' doc:name="Set Payload" doc:id="d4868628-be21-4072-8a41-fdd7fb578f3f" />
 	</flow>
 
 	
